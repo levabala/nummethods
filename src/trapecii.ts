@@ -16,7 +16,6 @@ export function trapecii(
   );
 }
 
-export function runge(integral1: number, integral2: number) {
-  const k = 2;
+export function runge(integral1: number, integral2: number, k = 2) {
   return Math.abs((integral2 - integral1) / (2 ** k - 1));
 }
