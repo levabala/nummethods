@@ -23,6 +23,6 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "mathjs": "^6.6.4"
+    "mathjs": "^7.5.1"
   }
 }
